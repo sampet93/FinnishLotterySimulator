@@ -1,0 +1,22 @@
+{
+  "name": "lotterysimulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sampet93/FinnishLotterySimulator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sampet93/FinnishLotterySimulator/issues"
+  },
+  "homepage": "https://github.com/sampet93/FinnishLotterySimulator#readme",
+  "devDependencies": {
+    "prettier": "2.4.0"
+  }
+}
