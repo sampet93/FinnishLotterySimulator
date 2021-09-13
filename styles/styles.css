@@ -1,43 +1,69 @@
 .ball-unselected {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orange;
-    color: black;
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-    font-size: large;
-    font-weight: bold;
-    text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: black;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
 }
 .ball-selected {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 21, 0);
-    color: rgb(255, 255, 255);
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-    font-size: large;
-    font-weight: bold;
-    text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 21, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
 }
 
-.ball-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2rem;
+.ball-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: black;
+  border-radius: 25px;
+  width: 5%;
+  height: 5%;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
 }
 
-.ball-text{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.ball-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.ball-text {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  background-color: bisque;
 }
