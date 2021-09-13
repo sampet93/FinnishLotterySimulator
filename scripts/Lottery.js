@@ -38,6 +38,7 @@ class Lottery {
             this.lotteryNumbers[x] == this.newLotteryNumbers[y] ? 1 : 0;
         }
       }
+      if (correct == 6) console.log("Found 6!");
     }
     console.log("WIN on round: " + this.lotteryRound);
   };
