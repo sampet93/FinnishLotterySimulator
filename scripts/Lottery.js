@@ -7,11 +7,9 @@ class Lottery {
     this.lotteryRound = 0;
   }
 
-  // REFACTOR -> Whole array of numbers -> shuffle -> map etc
-
   getRandomLotteryNumber = (min, max) => {
     min = Math.ceil(min);
-    max = Math.floor(max);
+    max = Math.floor(max + 1); // Add 1 as maximum is exclusive
     return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
   };
 
